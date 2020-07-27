@@ -1,0 +1,200 @@
+
+a {
+    color: #08c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#billboard {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    max-width: 1440px;
+    max-height: 100vh;
+    text-align: center;
+}
+
+#main-bg {
+    position: relative;
+    background-repeat: no-repeat;
+    height: 71vh;
+    width: 100vw;
+    max-width: 1440px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#spacer {
+    display: inline-block;
+    position: relative;
+    height: 88px;
+}
+
+#global-header {
+    margin: auto;
+    height: 38px;
+    width: 1080px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777777 100%);
+    background-color: #6e6e6e;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    color: white;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    
+}
+
+#header-selection {
+    margin: auto;
+    height: 38px;
+    line-height: 38px;
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #global-header {
+        width: 820px;
+    }
+}
+
+.header-items {
+    height: 38px;
+    flex: 1;
+    border-right: 1px solid #606060;
+    box-shadow:  rgba(255, 255, 255, 0.2) 1px 0;
+
+}
+
+.header-items:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+#apple-logo {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: top 4px left 50%;
+}
+
+#searchbar {
+    border: none;
+    width: 16%;
+}
+
+#searchbar:hover {
+    background-color: transparent;
+}
+
+#searchtext-container {
+    display: flex;
+    border-radius: 999px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 18px;
+    margin: 8px 10px 0 10px;
+}
+
+#search-icon {
+    padding: 0 2px 0 4px;
+    margin-top: -6px;
+    flex: 1;
+}
+
+#search-icon-img {
+    width: 12px;
+    max-height: 12px;
+}
+
+#searchtext {
+    flex: 1;
+    max-width: calc(100% - 25px);
+    margin: 2px 6px 0 0;
+    padding-top: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    border: 0 none;
+    background: transparent;
+}
+
+#searchtext:focus {
+    outline: none;
+}
+
+.header {
+    display: inline-block;
+    color: white;
+    max-width: 788px;
+    font: 18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.title {
+    margin: 126px 0 20px 0;
+    font-size: 60px;
+}
+
+.subheadline {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+#watch {
+    font-size: 24px;
+}
+
+#promos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.promo-img {
+    flex: 1;
+    overflow: hidden;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.footer {
+    font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: #6e6e6e;
+    font-size: .72em;
+    line-height: 1.2;
+    text-align: right;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.left {
+    text-align: left;
+    margin-top: -26px;
+}
+
+#footer-nav {
+    padding-top: 10px;
+    text-align: right;
+    list-style-type: none;
+}
+
+.footer-nav-item {
+    display: inline-block;
+    border-right: 1px solid lightgrey;
+    padding: 0 5px 0 5px;
+}
+
+#us-icon-li {
+    border: none;
+}
+
+#us-icon {
+    height: 1.36em;
+    margin-bottom: -4px;
+}
